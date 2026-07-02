@@ -22,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 
     <!-- CSS -->
 
@@ -66,14 +67,29 @@
 
             <!-- Right Side -->
 
-            <div class="nav-actions"><button class="icon-btn">🔍</button>
-                <button class="icon-btn">❤</button>
-                <button class="icon-btn cart-btn">🛒<span class="cart-count">0</span>
-                </button><button class="icon-btn">👤</button>
+            <div class="nav-actions">
 
-                <!-- Mobile Menu -->
+                <button class="icon-btn" aria-label="Search">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
 
-                <button id="menuBtn" class="menu-btn">☰</button>
+                <button class="icon-btn" aria-label="Wishlist">
+                    <span class="material-symbols-outlined">favorite</span>
+                </button>
+
+                <button class="icon-btn cart-btn" aria-label="Cart">
+                    <span class="material-symbols-outlined">shopping_bag</span><span class="cart-count">0</span>
+
+                </button>
+
+                <button class="icon-btn" aria-label="Profile">
+                    <span class="material-symbols-outlined">person</span>
+                </button>
+
+                <button id="menuBtn" class="menu-btn" aria-label="Open Menu">
+                    <span class="material-symbols-outlined">menu</span>
+
+                </button>
 
             </div>
 
@@ -210,6 +226,94 @@
                     <h2>24/7</h2>
 
                     <p>Customer Support</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ======================================
+        FEATURED CATEGORIES
+====================================== -->
+
+    <section class="featured-categories">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <div>
+
+                    <h2>Curated Categories</h2>
+
+                    <p>
+                        Refined selections for your lifestyle
+                    </p>
+
+                </div>
+
+                <a href="#" class="view-all">
+
+                    View All →
+
+                </a>
+
+            </div>
+
+            <div class="category-grid">
+
+                <!-- Large Card -->
+
+                <article class="category-card large">
+
+                    <img
+                            src="assets/images/hero.png"
+                            alt="Leather Collection">
+
+                    <div class="category-overlay">
+
+                        <h3>Leather Collection</h3>
+
+                        <p>Handcrafted Premium Pieces</p>
+
+                    </div>
+
+                </article>
+
+                <!-- Right Side -->
+
+                <div class="category-column">
+
+                    <article class="category-card">
+
+                        <img
+                                src="assets/images/hero.png"
+                                alt="Essentials">
+
+                        <div class="category-overlay">
+
+                            <h3>Essentials</h3>
+
+                        </div>
+
+                    </article>
+
+                    <article class="category-card">
+
+                        <img
+                                src="assets/images/hero.png"
+                                alt="Accessories">
+
+                        <div class="category-overlay">
+
+                            <h3>Accessories</h3>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
