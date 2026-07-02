@@ -432,3 +432,113 @@
     cursor:pointer;
 
 }
+
+/*=========================================
+        FLASH SALE
+=========================================*/
+
+.flash-sale{
+
+    background:#111;
+
+    color:white;
+
+    padding:100px 0;
+
+}
+
+.flash-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+.flash-label{
+
+    color:#ff8c42;
+
+    font-size:14px;
+
+    letter-spacing:3px;
+
+    display:block;
+
+    margin-bottom:20px;
+
+}
+
+.flash-sale h2{
+
+    font-size:54px;
+
+    margin-bottom:20px;
+
+}
+
+.flash-sale p{
+
+    color:#bbb;
+
+    max-width:500px;
+
+    margin-bottom:40px;
+
+}
+
+.countdown{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+.time-box{
+
+    width:90px;
+
+    height:90px;
+
+    background:#1f1f1f;
+
+    border-radius:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.time-box span{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.time-box small{
+
+    color:#999;
+
+}
+
+.flash-image img{
+
+    width:100%;
+
+    border-radius:24px;
+
+}
