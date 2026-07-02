@@ -1,0 +1,107 @@
+.logo{
+
+    font-size:32px;
+
+    font-weight:800;
+
+    color:var(--primary);
+
+    text-decoration:none;
+}
+
+.icon-btn{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:#fff;
+
+    transition:.3s;
+}
+
+.icon-btn:hover{
+
+    background:var(--primary);
+
+    color:white;
+}
+
+.menu-btn{
+
+    display:none;
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:24px;
+
+    background:none;
+}
+
+.btn{
+
+    padding:16px 36px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:white;
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+}
+
+.btn-outline{
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+}
+
+.btn-outline:hover{
+
+    background:var(--primary);
+
+    color:white;
+}
+
+.hero-badge{
+
+    display:inline-block;
+
+    background:#e8efff;
+
+    color:var(--primary);
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    margin-bottom:20px;
+}
